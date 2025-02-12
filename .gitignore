@@ -1,0 +1,30 @@
+# Node modules (Do NOT push)
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Build files (Do NOT push)
+dist/
+build/
+
+# Logs and environment files (Sensitive data)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.log
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.iml
+
+# MacOS system files (if using Mac)
+.DS_Store
+
+# Dependency lock files (Optional, but keep `package-lock.json` if needed)
+yarn.lock
+pnpm-lock.yaml
